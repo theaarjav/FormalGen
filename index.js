@@ -27,7 +27,7 @@ app.use(passport.initialize())
 app.use(passport.session())
 
 app.use(cors({
-    origin:'http://localhost:3000',
+    origin:'https://formalgen.netlify.app/',
     methods:'GET,PUT,POST,DELETE',
     credentials:true
 }))
@@ -37,7 +37,7 @@ app.use(express.json())
 
 
 app.use('/auth', authRoute)
-app.use('https://formalgen-backend.onrender.com/auth/google/callback', authRoute)
+// app.use('https://formalgen-backend.onrender.com/auth/google/callback', authRoute)
 app.use('/resume', resumeRoute)
 app.use('/offletter', offerLetterRoute)
 app.use('/jobapplication', jobapplication)
