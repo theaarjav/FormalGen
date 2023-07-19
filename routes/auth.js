@@ -32,7 +32,7 @@ router.get('/google',
 ));
 
 router.get(
-    "/google/callback",
+    "https://formalgen-backend.onrender.com/auth/google/callback",
     passport.authenticate("google", {
         successRedirect: process.env.CLIENT_URL,
         failureRedirect: "/login/failed",

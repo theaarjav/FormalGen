@@ -37,6 +37,7 @@ app.use(express.json())
 
 
 app.use('/auth', authRoute)
+app.use('https://formalgen-backend.onrender.com/auth/google/callback', authRoute)
 app.use('/resume', resumeRoute)
 app.use('/offletter', offerLetterRoute)
 app.use('/jobapplication', jobapplication)
