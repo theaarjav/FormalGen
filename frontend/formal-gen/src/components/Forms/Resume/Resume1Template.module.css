@@ -1,0 +1,145 @@
+.resume {
+    display: flex;
+    margin:  10px;
+    justify-content: center;
+    height: 70vh;
+    width: 25vw;
+    /* border: 2px solid black; */
+    /* border-radius: 10px ; */
+}
+
+.left {
+    background-color: #323b4c;
+    width: 25%;
+    padding-top: 36.5px;
+    padding-right: 17.5px;
+    padding-left: 17.5px;
+    color: #fff;
+}
+
+.right {
+    background-color: white;
+    width: 60%;
+    padding: 25px;
+}
+
+.email {
+    text-decoration: none;
+    color: white;
+}
+
+.left_section_content {
+    margin: 10px 0;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #323b4c;
+}
+
+.section_title {
+    font-size: 0.8rem;
+    margin: 12.5px 0 7.5px;
+    font-weight: 550;
+    color: #323b4c;
+}
+
+.left_section_title {
+    font-size: 0.8rem;
+    font-weight: 550;
+    margin: 40.5px 0 0;
+}
+
+.section_content {
+    margin-bottom: 5px;
+}
+
+.section_content_heading {
+    font-size: 0.625rem;
+    margin: 8px 0;
+    font-weight: 500;
+    color: grey;
+}
+
+.left_section_content_heading {
+    font-size: 0.625rem;
+    margin: 4px 0;
+    font-weight: 500;
+}
+
+.section_content_subheading {
+    font-weight: 500;
+    font-size: 0.625rem;
+}
+
+li {
+    font-size: 0.505rem;
+}
+
+.last {
+    margin-top: 24px;
+}
+
+.btn-div {
+    text-align: center;
+    margin: 0 0 17.5px;
+}
+
+.list {
+    padding-left: 8.5px;
+}
+
+.li {
+    font-weight: 500;
+    /* display: inline-block; */
+    /* list-style-type: disc; */
+    pointer-events: initial;
+}
+
+.item {
+    /* font-weight: 300; */
+    font-size: 0.5005rem;
+}
+
+.btn {
+  margin-top: 25px;
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.btn:hover {
+  background-color: #374151;
+}
+
+.btn:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    padding: .75rem 1.2rem;
+  }
+}

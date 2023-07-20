@@ -1,0 +1,20 @@
+body {
+  /* background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV53-nHZXx2B17yi_R2HgB2yRnew0rNbtUpknZGseI-KKziY_GWbYSMok5MxG-plmsQRQhT9nw3Tv3HU0JvUE5XgechuCJhhvQKnFVps2-0YpFGMNril7cErzODtwzLKeYah51XCSLE1YmAAAEBOaxnK42DVvST9RLmXck1oyTQ_YQHm3HNSulSaqVwg/s16000/%E0%A4%B9%E0%A4%A8%E0%A5%81%E0%A4%AE%E0%A4%BE%E0%A4%A8%20%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%B8%E0%A4%BE%20%E0%A4%AB%E0%A5%8B%E0%A4%9F%E0%A5%8B%20%E0%A4%A1%E0%A4%BE%E0%A4%89%E0%A4%A8%E0%A4%B2%E0%A5%8B%E0%A4%A1%20%20Hanuman%20chalisa%20photo%20picture%20download.jpg') no-repeat center center fixed; */
+  background: url('https://wallpaperaccess.com/full/2481980.jpg');
+  background-size: cover;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
