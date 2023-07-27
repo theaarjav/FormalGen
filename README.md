@@ -1,4 +1,4 @@
-# FitHub
+# FormalGen
 
 ## Developer : [Aarjav Desai](https://github.com/theaarjav)
 
